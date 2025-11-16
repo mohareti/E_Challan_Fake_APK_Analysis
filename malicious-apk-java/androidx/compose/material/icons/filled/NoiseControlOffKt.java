@@ -1,0 +1,111 @@
+package androidx.compose.material.icons.filled;
+
+import D.b;
+import E.a;
+import L.a1;
+import f0.C0560v;
+import f0.U;
+import java.util.ArrayList;
+import l0.AbstractC0802G;
+import l0.C0810e;
+import l0.C0811f;
+import l0.C0815j;
+import l0.C0816k;
+import l0.C0818m;
+import l0.C0819n;
+import l0.C0821p;
+import l0.C0823r;
+import l0.C0824s;
+import l0.C0826u;
+import l0.C0827v;
+import l0.C0829x;
+
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public final class NoiseControlOffKt {
+    private static C0811f _noiseControlOff;
+
+    public static final C0811f getNoiseControlOff(b bVar) {
+        C0811f c0811f = _noiseControlOff;
+        if (c0811f != null) {
+            return c0811f;
+        }
+        C0810e c0810e = new C0810e("Filled.NoiseControlOff", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 96);
+        int i3 = AbstractC0802G.f7274a;
+        long j2 = C0560v.f6527b;
+        U u3 = new U(j2);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new C0819n(12.0f, 4.0f));
+        arrayList.add(new C0824s(1.44f, 0.0f, 2.79f, 0.38f, 3.95f, 1.05f));
+        arrayList.add(new C0826u(1.45f, -1.45f));
+        arrayList.add(new C0816k(15.85f, 2.59f, 13.99f, 2.0f, 12.0f, 2.0f));
+        arrayList.add(new C0821p(8.15f, 2.59f, 6.59f, 3.59f));
+        arrayList.add(new C0826u(1.45f, 1.45f));
+        arrayList.add(new C0816k(9.21f, 4.38f, 10.56f, 4.0f, 12.0f, 4.0f));
+        C0815j c0815j = C0815j.f7376c;
+        arrayList.add(c0815j);
+        C0810e.a(c0810e, arrayList, 0, u3, 1.0f, 1.0f);
+        U u4 = new U(j2);
+        ArrayList arrayList2 = new ArrayList(32);
+        arrayList2.add(new C0819n(20.0f, 12.0f));
+        arrayList2.add(new C0824s(0.0f, 1.44f, -0.38f, 2.79f, -1.05f, 3.95f));
+        arrayList2.add(new C0826u(1.45f, 1.45f));
+        arrayList2.add(new C0816k(21.41f, 15.85f, 22.0f, 13.99f, 22.0f, 12.0f));
+        arrayList2.add(new C0829x(-0.59f, -3.85f, -1.59f, -5.41f));
+        arrayList2.add(new C0826u(-1.45f, 1.45f));
+        arrayList2.add(new C0816k(19.62f, 9.21f, 20.0f, 10.56f, 20.0f, 12.0f));
+        arrayList2.add(c0815j);
+        C0810e.a(c0810e, arrayList2, 0, u4, 1.0f, 1.0f);
+        U u5 = new U(j2);
+        ArrayList arrayList3 = new ArrayList(32);
+        arrayList3.add(new C0819n(12.0f, 20.0f));
+        arrayList3.add(new C0824s(-1.44f, 0.0f, -2.79f, -0.38f, -3.95f, -1.05f));
+        arrayList3.add(new C0826u(-1.45f, 1.45f));
+        arrayList3.add(new C0816k(8.15f, 21.41f, 10.01f, 22.0f, 12.0f, 22.0f));
+        arrayList3.add(new C0829x(3.85f, -0.59f, 5.41f, -1.59f));
+        arrayList3.add(new C0826u(-1.45f, -1.45f));
+        arrayList3.add(new C0816k(14.79f, 19.62f, 13.44f, 20.0f, 12.0f, 20.0f));
+        arrayList3.add(c0815j);
+        C0810e.a(c0810e, arrayList3, 0, u5, 1.0f, 1.0f);
+        U u6 = new U(j2);
+        ArrayList arrayList4 = new ArrayList(32);
+        arrayList4.add(new C0819n(4.0f, 12.0f));
+        arrayList4.add(new C0824s(0.0f, -1.44f, 0.38f, -2.79f, 1.05f, -3.95f));
+        arrayList4.add(new C0818m(3.59f, 6.59f));
+        arrayList4.add(new C0816k(2.59f, 8.15f, 2.0f, 10.01f, 2.0f, 12.0f));
+        arrayList4.add(new C0829x(0.59f, 3.85f, 1.59f, 5.41f));
+        arrayList4.add(new C0826u(1.45f, -1.45f));
+        arrayList4.add(new C0816k(4.38f, 14.79f, 4.0f, 13.44f, 4.0f, 12.0f));
+        arrayList4.add(c0815j);
+        C0810e.a(c0810e, arrayList4, 0, u6, 1.0f, 1.0f);
+        U u7 = new U(j2);
+        a1 a3 = a.a(11.5f, 6.0f);
+        a3.e(9.02f, 6.0f, 7.0f, 8.02f, 7.0f, 10.5f);
+        a3.f(0.0f, 1.22f, 0.49f, 2.41f, 1.35f, 3.27f);
+        a3.j(1.36f, 1.36f);
+        a3.f(0.17f, 0.17f, 0.31f, 0.44f, 0.44f, 0.82f);
+        a3.e(10.56f, 17.17f, 11.71f, 18.0f, 13.0f, 18.0f);
+        a3.f(1.65f, 0.0f, 3.0f, -1.35f, 3.0f, -3.0f);
+        a3.h(-2.0f);
+        a3.f(0.0f, 0.55f, -0.45f, 1.0f, -1.0f, 1.0f);
+        a3.f(-0.43f, 0.0f, -0.81f, -0.27f, -0.95f, -0.68f);
+        a3.f(-0.15f, -0.44f, -0.4f, -1.08f, -0.93f, -1.61f);
+        a3.j(-1.36f, -1.36f);
+        a3.e(9.28f, 11.87f, 9.0f, 11.19f, 9.0f, 10.5f);
+        a3.e(9.0f, 9.12f, 10.12f, 8.0f, 11.5f, 8.0f);
+        a3.f(1.21f, 0.0f, 2.22f, 0.86f, 2.45f, 2.0f);
+        a3.h(2.02f);
+        a3.e(15.72f, 7.75f, 13.81f, 6.0f, 11.5f, 6.0f);
+        a3.d();
+        C0810e.a(c0810e, a3.f3934a, 0, u7, 1.0f, 1.0f);
+        U u8 = new U(j2);
+        ArrayList arrayList5 = new ArrayList(32);
+        arrayList5.add(new C0819n(13.5f, 12.5f));
+        arrayList5.add(new C0827v(-1.5f, 0.0f));
+        arrayList5.add(new C0823r(1.5f, 1.5f, 0.0f, true, true, 3.0f, 0.0f));
+        arrayList5.add(new C0823r(1.5f, 1.5f, 0.0f, true, true, -3.0f, 0.0f));
+        C0810e.a(c0810e, arrayList5, 0, u8, 1.0f, 1.0f);
+        C0811f b3 = c0810e.b();
+        _noiseControlOff = b3;
+        return b3;
+    }
+}

@@ -1,0 +1,29 @@
+package M;
+
+import L.C0325u;
+import L.InterfaceC0294e;
+import L.K0;
+import u2.InterfaceC1119c;
+
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public final class l extends G {
+
+    /* renamed from: c, reason: collision with root package name */
+    public static final l f4276c = new G(0, 2, 1);
+
+    @Override // M.G
+    public final void a(H h3, InterfaceC0294e interfaceC0294e, K0 k02, C0325u c0325u) {
+        ((InterfaceC1119c) h3.c(0)).m((L.r) h3.c(1));
+    }
+
+    @Override // M.G
+    public final String c(int i3) {
+        if (x2.a.I(i3, 0)) {
+            return "anchor";
+        }
+        if (x2.a.I(i3, 1)) {
+            return "composition";
+        }
+        return super.c(i3);
+    }
+}

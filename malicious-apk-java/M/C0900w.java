@@ -1,0 +1,13 @@
+package m;
+
+/* renamed from: m.w, reason: case insensitive filesystem */
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public final class C0900w {
+
+    /* renamed from: a, reason: collision with root package name */
+    public final A.F f7780a;
+
+    public C0900w(A.F f) {
+        this.f7780a = f;
+    }
+}

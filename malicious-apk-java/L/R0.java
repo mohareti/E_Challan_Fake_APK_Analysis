@@ -1,0 +1,11 @@
+package L;
+
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public abstract /* synthetic */ class R0 {
+
+    /* renamed from: a, reason: collision with root package name */
+    public static final Y0 f3874a = new Y0(0);
+
+    /* renamed from: b, reason: collision with root package name */
+    public static final Y0 f3875b = new Y0(0);
+}
