@@ -1,0 +1,78 @@
+package v;
+
+import G2.InterfaceC0086w;
+import I.C0159o0;
+import g2.AbstractC0586a;
+import g2.C0611z;
+import l2.InterfaceC0836d;
+import n2.AbstractC0952i;
+import u2.InterfaceC1117a;
+import u2.InterfaceC1121e;
+import x0.AbstractC1271f;
+import x0.Y;
+
+/* renamed from: v.h, reason: case insensitive filesystem */
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public final class C1132h extends AbstractC0952i implements InterfaceC1121e {
+
+    /* renamed from: l, reason: collision with root package name */
+    public int f9267l;
+
+    /* renamed from: m, reason: collision with root package name */
+    public final /* synthetic */ C1134j f9268m;
+
+    /* renamed from: n, reason: collision with root package name */
+    public final /* synthetic */ InterfaceC1117a f9269n;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public C1132h(C1134j c1134j, C0159o0 c0159o0, InterfaceC0836d interfaceC0836d) {
+        super(2, interfaceC0836d);
+        this.f9268m = c1134j;
+        this.f9269n = c0159o0;
+    }
+
+    @Override // u2.InterfaceC1121e
+    public final Object k(Object obj, Object obj2) {
+        return ((C1132h) o((InterfaceC0086w) obj, (InterfaceC0836d) obj2)).q(C0611z.f6691a);
+    }
+
+    @Override // n2.AbstractC0944a
+    public final InterfaceC0836d o(Object obj, InterfaceC0836d interfaceC0836d) {
+        return new C1132h(this.f9268m, (C0159o0) this.f9269n, interfaceC0836d);
+    }
+
+    @Override // n2.AbstractC0944a
+    public final Object q(Object obj) {
+        InterfaceC1125a interfaceC1125a;
+        m2.a aVar = m2.a.f7799h;
+        int i3 = this.f9267l;
+        if (i3 != 0) {
+            if (i3 == 1) {
+                AbstractC0586a.e(obj);
+            } else {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+        } else {
+            AbstractC0586a.e(obj);
+            C1134j c1134j = this.f9268m;
+            if (c1134j.f5562t) {
+                if (!c1134j.f5550h.f5562t) {
+                    interfaceC1125a = null;
+                } else {
+                    interfaceC1125a = (InterfaceC1125a) AbstractC1271f.j(c1134j, C1134j.f9275w);
+                    if (interfaceC1125a == null) {
+                        interfaceC1125a = new C1135k(c1134j);
+                    }
+                }
+                if (interfaceC1125a != null) {
+                    Y u3 = AbstractC1271f.u(c1134j);
+                    this.f9267l = 1;
+                    if (interfaceC1125a.C(u3, this.f9269n, this) == aVar) {
+                        return aVar;
+                    }
+                }
+            }
+        }
+        return C0611z.f6691a;
+    }
+}

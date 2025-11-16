@@ -1,0 +1,45 @@
+package androidx.compose.material.icons.automirrored.filled;
+
+import B.f;
+import D.a;
+import E.b;
+import E.c;
+import L.a1;
+import f0.C0560v;
+import f0.U;
+import l0.AbstractC0802G;
+import l0.C0810e;
+import l0.C0811f;
+
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public final class StickyNote2Kt {
+    private static C0811f _stickyNote2;
+
+    public static final C0811f getStickyNote2(a aVar) {
+        C0811f c0811f = _stickyNote2;
+        if (c0811f != null) {
+            return c0811f;
+        }
+        C0810e c0810e = new C0810e("AutoMirrored.Filled.StickyNote2", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, true, 96);
+        int i3 = AbstractC0802G.f7274a;
+        U u3 = new U(C0560v.f6527b);
+        a1 q3 = f.q(19.0f, 3.0f, 4.99f);
+        q3.e(3.89f, 3.0f, 3.0f, 3.9f, 3.0f, 5.0f);
+        q3.j(0.01f, 14.0f);
+        q3.f(0.0f, 1.1f, 0.89f, 2.0f, 1.99f, 2.0f);
+        q3.h(10.0f);
+        q3.j(6.0f, -6.0f);
+        q3.o(5.0f);
+        q3.e(21.0f, 3.9f, 20.1f, 3.0f, 19.0f, 3.0f);
+        E.a.x(q3, 7.0f, 8.0f, 10.0f, 2.0f);
+        b.u(q3, 7.0f, 8.0f, 12.0f, 14.0f);
+        b.s(q3, 7.0f, -2.0f, 5.0f, 14.0f);
+        c.s(q3, 14.0f, 19.5f, 14.0f, 5.5f);
+        q3.i(14.0f, 19.5f);
+        q3.d();
+        C0810e.a(c0810e, q3.f3934a, 0, u3, 1.0f, 1.0f);
+        C0811f b3 = c0810e.b();
+        _stickyNote2 = b3;
+        return b3;
+    }
+}

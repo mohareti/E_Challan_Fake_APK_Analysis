@@ -1,0 +1,111 @@
+package androidx.compose.material.icons.filled;
+
+import B.f;
+import D.b;
+import E.a;
+import E.c;
+import L.a1;
+import f0.C0560v;
+import f0.U;
+import java.util.ArrayList;
+import l0.AbstractC0802G;
+import l0.C0810e;
+import l0.C0811f;
+import l0.C0819n;
+import l0.C0823r;
+import l0.C0827v;
+
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public final class SportsKabaddiKt {
+    private static C0811f _sportsKabaddi;
+
+    public static final C0811f getSportsKabaddi(b bVar) {
+        C0811f c0811f = _sportsKabaddi;
+        if (c0811f != null) {
+            return c0811f;
+        }
+        C0810e c0810e = new C0810e("Filled.SportsKabaddi", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 96);
+        int i3 = AbstractC0802G.f7274a;
+        long j2 = C0560v.f6527b;
+        U u3 = new U(j2);
+        ArrayList arrayList = new ArrayList(32);
+        arrayList.add(new C0819n(16.5f, 2.38f));
+        arrayList.add(new C0827v(-2.0f, 0.0f));
+        arrayList.add(new C0823r(2.0f, 2.0f, 0.0f, true, true, 4.0f, 0.0f));
+        arrayList.add(new C0823r(2.0f, 2.0f, 0.0f, true, true, -4.0f, 0.0f));
+        C0810e.a(c0810e, arrayList, 0, u3, 1.0f, 1.0f);
+        U u4 = new U(j2);
+        a1 a1Var = new a1(1, false);
+        a1Var.k(24.0f, 11.88f);
+        a1Var.p(-4.7f);
+        a1Var.j(-5.05f, -2.14f);
+        a1Var.f(-0.97f, -0.41f, -2.09f, -0.06f, -2.65f, 0.84f);
+        a1Var.j(0.0f, 0.0f);
+        a1Var.j(-1.0f, 1.6f);
+        a1Var.f(-0.67f, 1.18f, -1.91f, 2.06f, -3.41f, 2.32f);
+        a1Var.j(0.06f, 0.06f);
+        a1Var.f(0.69f, 0.69f, 1.52f, 1.07f, 2.46f, 1.17f);
+        a1Var.f(0.8f, -0.42f, 1.52f, -0.98f, 2.09f, -1.64f);
+        a1Var.j(0.6f, 3.0f);
+        a1Var.j(-1.16f, 1.1f);
+        a1Var.i(15.0f, 14.38f);
+        a1Var.p(0.76f);
+        a1Var.p(6.74f);
+        c.m(a1Var, 2.0f, -6.0f, 2.1f, -2.0f);
+        a1Var.j(1.8f, 8.0f);
+        a1Var.g(23.0f);
+        a1Var.j(-2.18f, -11.0f);
+        a1Var.j(-0.62f, -3.1f);
+        a1Var.j(1.8f, 0.7f);
+        a1Var.p(3.4f);
+        a1Var.g(24.0f);
+        a1Var.d();
+        C0810e.a(c0810e, a1Var.f3934a, 0, u4, 1.0f, 1.0f);
+        U u5 = new U(j2);
+        a1 a3 = a.a(10.29f, 8.09f);
+        a3.f(0.22f, 0.15f, 0.47f, 0.24f, 0.72f, 0.29f);
+        a3.f(0.13f, 0.02f, 0.25f, 0.04f, 0.38f, 0.04f);
+        a3.n(0.26f, -0.01f, 0.38f, -0.04f);
+        a3.f(0.13f, -0.02f, 0.25f, -0.06f, 0.37f, -0.11f);
+        a3.f(0.24f, -0.1f, 0.47f, -0.24f, 0.66f, -0.44f);
+        a3.f(0.49f, -0.49f, 0.67f, -1.17f, 0.55f, -1.8f);
+        a3.e(13.28f, 5.66f, 13.1f, 5.29f, 12.8f, 5.0f);
+        a3.f(-0.19f, -0.19f, -0.42f, -0.34f, -0.66f, -0.44f);
+        a3.f(-0.12f, -0.05f, -0.24f, -0.09f, -0.37f, -0.11f);
+        a3.n(-0.25f, -0.04f, -0.38f, -0.04f);
+        a3.f(-0.12f, 0.0f, -0.23f, 0.01f, -0.35f, 0.03f);
+        a3.f(-0.14f, 0.02f, -0.28f, 0.06f, -0.41f, 0.11f);
+        a3.e(10.4f, 4.66f, 10.17f, 4.81f, 9.98f, 5.0f);
+        a3.e(9.68f, 5.29f, 9.5f, 5.66f, 9.43f, 6.03f);
+        a3.f(-0.12f, 0.63f, 0.06f, 1.31f, 0.55f, 1.8f);
+        a3.e(10.07f, 7.93f, 10.18f, 8.01f, 10.29f, 8.09f);
+        a3.d();
+        C0810e.a(c0810e, a3.f3934a, 0, u5, 1.0f, 1.0f);
+        U u6 = new U(j2);
+        a1 k3 = f.k(11.24f, 10.56f, -2.0f, -2.0f);
+        k3.f(-0.1f, -0.1f, -0.2f, -0.18f, -0.31f, -0.26f);
+        k3.e(8.71f, 8.16f, 8.46f, 8.06f, 8.21f, 8.02f);
+        k3.e(8.08f, 7.99f, 7.96f, 7.98f, 7.83f, 7.98f);
+        k3.f(-0.51f, 0.0f, -1.02f, 0.2f, -1.41f, 0.59f);
+        k3.j(-3.34f, 3.34f);
+        k3.f(-0.41f, 0.41f, -0.62f, 0.98f, -0.58f, 1.54f);
+        k3.e(2.5f, 13.63f, 2.54f, 13.82f, 2.61f, 14.0f);
+        k3.j(1.07f, 2.95f);
+        k3.j(-3.63f, 3.63f);
+        k3.i(1.46f, 22.0f);
+        k3.j(4.24f, -4.24f);
+        E.b.j(k3, -2.22f, 7.0f, 16.75f, 5.13f);
+        c.m(k3, 2.0f, -6.0f, -2.12f, -2.12f);
+        k3.j(2.36f, -2.36f);
+        k3.j(0.71f, 0.71f);
+        k3.j(0.0f, 0.0f);
+        k3.f(1.29f, 1.26f, 2.97f, 2.04f, 5.03f, 2.04f);
+        k3.j(-0.14f, -2.07f);
+        k3.e(13.34f, 12.06f, 12.14f, 11.46f, 11.24f, 10.56f);
+        k3.d();
+        C0810e.a(c0810e, k3.f3934a, 0, u6, 1.0f, 1.0f);
+        C0811f b3 = c0810e.b();
+        _sportsKabaddi = b3;
+        return b3;
+    }
+}

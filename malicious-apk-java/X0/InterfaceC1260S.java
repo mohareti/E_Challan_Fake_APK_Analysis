@@ -1,0 +1,7 @@
+package x0;
+
+/* renamed from: x0.S, reason: case insensitive filesystem */
+/* loaded from: /home/mobsf/.MobSF/uploads/753876b01b6895c68ea4728422f0fc34/classes.dex */
+public interface InterfaceC1260S {
+    void D(boolean z3);
+}
