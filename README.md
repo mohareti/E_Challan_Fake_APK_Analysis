@@ -15,3 +15,9 @@ MobSF
 
 Hybrid Analysis
 - https://hybrid-analysis.com/sample/7f6985f0a4d756f5db63b710a24cdf51653ac9848d13f075f9f3e3fdfeac295e/6917717c2129183e2201ef47
+
+Interesting Strings:
+- android:label="RTО Chаllaո"
+- android:icon="@7F050003"
+- android:name="co.ec.cnsyn.codecatcher.App" 
+- https://gitlab.com/fdroid/fdroiddata/-/merge_requests/16454
